@@ -44,7 +44,7 @@ const Home = () => {
                         />
                     </div>
                     <div className="form-container-button">
-                        <Button text="Verificar" onClick={loginRequest} />
+                        <Button text="Iniciar Sesión" onClick={loginRequest} />
                     </div>
                 </div>
             </div>
