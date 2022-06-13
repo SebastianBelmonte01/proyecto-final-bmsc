@@ -30,14 +30,12 @@ const Main = () => {
                 <Card
                     subtitle="Dashboard Banca Digital"
                     img="/img/bancaDigital.png"
-                    
                     text="Dashboard Banca Digital 2019 - 2022"
                     buttonText="Banca Digital"
                     onClick={openDigital}
                 />
                 <Card
                     subtitle="Dashboard Banca Física"
-                    
                     img="/img/bancaFisica.png"
                     text="Dashboard Banca Física 2019 - 2022"
                     buttonText="Banca Fisica"
