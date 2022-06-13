@@ -13,7 +13,6 @@ function App() {
       <Routes>
         <Route exact path ="/" element= {<Home/>} />
         <Route exact path ="/Main" element= {<Main />} />
-
         <Route exact path ="/BancaDigital" element= {<BancaDigital />} />
         <Route exact path ="/BancaFisica" element= {<BancaFisica />} />
         <Route exact path ="/Movimientos" element= {<Movimientos />} />
