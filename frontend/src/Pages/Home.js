@@ -34,8 +34,7 @@ const Home = () => {
                     </div>
                     <div className="form-container-button">
                         <div className="form-container">
-                            <Button text='Verificar' onClick={openApp}/> 
-                            <Button text='Cancelar'/> 
+                            <Button text='Iniciar Sesión' onClick={openApp}/> 
                         </div>
                     </div>
             </div>
