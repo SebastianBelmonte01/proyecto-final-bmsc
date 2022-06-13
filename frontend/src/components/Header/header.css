@@ -1,6 +1,7 @@
 .header{
     display: flex;
     background-color: #004f2f;
+    flex-direction: row;
     font-size: 25px;
     color: #fff;
 }
@@ -12,4 +13,18 @@
 
 .bmsc-logo img {
     height: 100px;
+}
+
+.bmsc-header-logout a {
+    color: #a7d342;
+    font-size: 25px;
+    right: 0;
+}
+
+.bmsc-header-logout {
+    padding: 2%;
+}
+
+.bmsc-header-logout a:hover {
+    color: #a8d4b9;
 }

@@ -13,6 +13,9 @@ const index = () => {
             <div className="bmsc-header">
                 <h2>Banco Mercantil Santa Cruz S.A</h2>
             </div>
+            <div className="bmsc-header-logout">
+              <a href="/">Cerrar Sesión</a>
+            </div>
         </div>
     </div>
   )
