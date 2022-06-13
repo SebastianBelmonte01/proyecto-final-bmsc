@@ -1,0 +1,25 @@
+.home-login-container{
+    display: flex;
+    margin: 0 auto;
+}
+.home-login{
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 20px 10px 25px 25px #004f2f;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container-button{
+    margin: 0 auto;
+    margin: 10px;
+}
