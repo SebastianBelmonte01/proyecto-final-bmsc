@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <div>
-            <Header />
+            <Header showBtn={false} />
             <div className="home-login-container">
                 <div className="home-login">
                     <div className="form-container">

@@ -22,9 +22,14 @@ const Main = () => {
         history('/Movimientos');
     }
 
+    const logout = () => {
+        localStorage.clear();
+        history("/");
+    }
+
     return (
     <div>
-        <Header />
+        <Header showBtn={true} btnText="Cerrar Sesión" btnOnClick={logout} />
 
         <div className="card-wrapper" style={{ paddingBottom: "1rem" }}>
                 <Card

@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 
 const BancaDigital = () => {
-  return (
-    <div>BancaDigital</div>
-  )
-}
+    const navigate = useNavigate();
+    const home = () => {
+        navigate("/Main");
+    };
 
-export default BancaDigital
+    return (
+        <React.Fragment>
+            <Header showBtn={true} btnText="Volver a Inicio" btnOnClick={ home } />
+        </React.Fragment>
+    );
+};
+
+export default BancaDigital;

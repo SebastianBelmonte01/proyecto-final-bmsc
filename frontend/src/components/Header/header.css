@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     background-color: #004f2f;
     font-size: 25px;
@@ -7,9 +7,20 @@
 
 .bmsc-header {
     margin: 0 auto;
-    padding-top: 1rem;
+}
+
+.bmsc-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bmsc-logo img {
     height: 100px;
+}
+
+.bmsc-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
