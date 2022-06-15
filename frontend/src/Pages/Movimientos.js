@@ -9,10 +9,19 @@ const Movimientos = () => {
         navigate("/Main");
     };
 
+    const options = {
+        width: 1500,
+        height: 900
+    }
+
     return (
         <React.Fragment>
             <Header showBtn={true} btnText="Volver a Inicio" btnOnClick={home}/>
-            <TableauReport url="https://prod-useast-a.online.tableau.com/t/dssbmsc/views/Regional/Stocks" query="?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link" />
+            <TableauReport
+                url="https://prod-useast-a.online.tableau.com/t/dssbmsc/views/Cantidaddemovimientos/Dashboard1"
+                query="?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
+                options={options}
+                />
         </React.Fragment>
     );
 };

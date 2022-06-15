@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background-color: #004f2f;
+    background-color: #005030;
     flex-direction: row;
     font-size: 25px;
     color: #fff;
@@ -24,4 +24,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 1rem;
+}
+
+.bmsc-button button {
+    background-color: #98c54c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.bmsc-button button:hover {
+    cursor: pointer;
 }

@@ -29,3 +29,16 @@
 .card__button {
     padding: 1rem 0;
 }
+
+.card__button button {
+    background-color: #98c54c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.card__button button:hover {
+    cursor: pointer;
+}

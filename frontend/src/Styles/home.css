@@ -24,3 +24,16 @@
     margin: 0 auto;
     margin: 10px;
 }
+
+.form-container-button button {
+    background-color: #98c54c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.form-container-button button:hover {
+    cursor: pointer;
+}
